@@ -1,0 +1,9 @@
+name = "cloudflare-worker-static"
+main = "src/index.ts"
+compatibility_date = "2024-09-19"
+assets = { directory = "./public/", binding = "ASSETS" }
+
+[[d1_databases]]
+binding = "DB"
+database_name = "db"
+database_id = "50f11557-f38d-4fca-8734-a98e6dcba89f"
